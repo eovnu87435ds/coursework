@@ -1,0 +1,5 @@
+Write a program, which verifies whether C, C++ and Java implementations of the Markov chain algorithm 
+generate the same output, if they operate on the same input document and use the same random numbers 
+in the process of selecting random suffixes. Make sure to take into account the fact that C++ and Java 
+implementations place suffixes at the end of the suffix vector and the C implementation at the 
+beginning of the suffix list.

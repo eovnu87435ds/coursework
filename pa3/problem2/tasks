@@ -1,0 +1,5 @@
+Write a Python implementation of the Markov chain algorithm. Add testing code to it, which verifies 
+that every prefix obtained during the generate phase also occurred during the build phase. During the 
+build phase create a data structure consisting of all prefixes occurring during the reading of the 
+text document. During the generate phase verify that every prefix obtained in the iteration process 
+was also placed in the data structure you created during the build phase.

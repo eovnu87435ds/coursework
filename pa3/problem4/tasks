@@ -1,0 +1,5 @@
+Implement Flight class in Python (problem 4 of programming assignment 2). Design and run systematic 
+tests of your Flight class. Follow the guidelines of paragraphs 6.2-6.5 of the textbook. Provide a 
+detailed description of all tests you have performed. Include a test, which stores in a file all data 
+of an object representing a single flight, locates these data in the original input file and verifies 
+whether they are identical.

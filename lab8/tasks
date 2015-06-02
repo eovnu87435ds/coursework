@@ -1,0 +1,15 @@
+1. Prepare an extension of Markov chain algorithm (C++ or Java) verifying its conservation property, 
+that every prefix of the generate phase occurred also in the build phase. In order to do that create 
+another hash table besides statetab with prefixes as keys and the number of occurrences of the prefix 
+in the input document as its corresponding value. Create your data structure during the build phase. 
+During generate phase verify that each randomly selected prefix was placed inside the hash table, and 
+print it out together with the number of its occurrences inside the input document.
+
+2. Prepare Python code that prompts the user for positive integers and inserts them one-by-one into an 
+initially empty BST. The process of insertion should stop when number 0 is entered from the keyboard. 
+At that moment the created BST should get displayed with pre, in, and post order listings of inserted 
+labels, their pre-order listing with depth tracing, and the height/depth of the BST and its number of 
+nodes should be computed and displayed on the screen. Examples of Python code explaining how to 
+substitute pointers by references are discussed in chapters 17-20 of the book How to Think Like a 
+Computer Scientist by Allen Downey, Jeffrey Elkner and Chris Meyers.
+http://www.greenteapress.com/thinkpython/thinkCSpy/html/
