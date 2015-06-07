@@ -15,8 +15,8 @@ class mycsv:
 			pass			
 		return nocomma
 
-testline = input("Enter a CSV line:")
-#TODO sanitize for leading/trailing ' '
+testline = raw_input("Enter a CSV line:")
+
 csvtest = mycsv(testline)
 
 csvsplit = csvtest.split()
