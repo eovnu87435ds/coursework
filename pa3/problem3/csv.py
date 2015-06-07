@@ -16,6 +16,7 @@ class mycsv:
 		return nocomma
 
 testline = raw_input("Enter a CSV line:")
+print
 
 csvtest = mycsv(testline)
 

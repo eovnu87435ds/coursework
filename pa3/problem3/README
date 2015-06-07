@@ -1,0 +1,20 @@
+PROBLEM 3: Use Python classes to implement Csv interface (textbook chapter 4).
+Michael Dornisch and Sebastian Hoppach
+
+This folder contains a CSV library written in python. When run directly, it will allow you to test with STDIN. It can be imported into another python project(which is why I named it mycsv, so that there would be no conflicts with the already included python CSV library).
+
+Rather than writing this library the same way as the C++ and Java Libraries, I wrote this one which will use a single regular expression. This regex will find the commas that separate the fields, but will pass over commas that are within quotes.  I used http://pythex.org/ to test and fine tune the regex. 
+
+This results in a much shorter, and much easier to read library. It might not be as computationally efficient as the way the Java and C++, but if you are using Python, speed isn't a priority anyway. 
+
+Another benefit is that since Python has some great methods for measuring and manipulating strings, modifying this library to do things such as counting the number of characters, etc. is much simpler, since both the original string and a list of strings(the separate values) are readily available, and can be done with the addition of a simple method. 
+
+
+USAGE:
+
+make / make run:
+	This runs csv.py directly, and passes it the string listed in the makefile.
+	
+	
+OTHER USAGE:
+	You can import this into another Python program with the line 'from csv.py import mycsv'. You could take a CSV file, and read each line into a list of strings, then programmatically create a list of mycsv objects, or a 2D list, where each dimension in i is a line, and each dimension in j is one of the comma separated values. At that point, the CSV is completely parsed, and ready for manipulation.
