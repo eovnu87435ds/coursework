@@ -1,0 +1,6 @@
+PROBLEM 1:
+Michael Dornisch and Sebastian Hoppach
+
+Tested to work properly on tux.cs.drexel.edu
+
+NOTE: The C, C++ and Java code expects a file random_numbers.txt with correct syntax to be present. Thus, they should only be called by main.py which creates the file before calling them.
