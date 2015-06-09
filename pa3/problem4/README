@@ -1,0 +1,9 @@
+Problem 4.
+
+
+
+Problem 4 isn't working right. Doing the CSV thing out of the box came back to bite me. The problem is really odd and I ran out of time to finish it. 
+
+I can successfully read in a file, and parse it into separate lines in a single list. Those lines print out fine.
+
+Then when I split it into a csv, the fields in each line are randomly shuffled around, and I have no clue why. Each line is shuffled a different way. When you run the code you will see what I mean. 
